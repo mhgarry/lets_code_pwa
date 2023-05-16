@@ -1,7 +1,11 @@
 {
   "env": {
-    "browser": true
+		"es6": true,
+		"browser": true
   },
+	"parserOptions": {
+		"ecmaVersion": "latest"
+	}
   "rules": {
     // Override our default settings just for this directory
     "eqeqeq": "warn",
