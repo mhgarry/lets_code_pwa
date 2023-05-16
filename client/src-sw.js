@@ -26,7 +26,7 @@ warmStrategyCache({
 
 registerRoute(({ request }) => request.mode === 'navigate', pageCache);
 
-// implmenting asset caching
+// implementing asset caching
 registerRoute(
 	// callback function to check for a style, script, or worker asset
 	({ request }) => ['style', 'script', 'worker'].includes(request.destination),
@@ -41,3 +41,4 @@ registerRoute(
 		],
 	}));
 
+	offlineFallback()
