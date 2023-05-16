@@ -22,24 +22,17 @@ module.exports = () => {
         template: './index.html',
         title: 'PWA Text Editor',
       }),
-
-      // Injects our custom service worker
-      new InjectManifest({
-        swSrc: './src-sw.js',
-        swDest: 'src-sw.js',
-      }),
-
       // Add a manifest.json file.
       new WebpackPwaManifest({
         fingerprints: false,
         inject: true,
-        name: 'PWA Text Editor',
+        name: 'JATE',
         short_name: 'JATE',
-        description: 'Lightweight Text Editor!',
+        description: 'Just Another Text Editor!',
         background_color: '#225ca3',
         theme_color: '#225ca3',
-        start_url: './',
-        publicPath: './',
+        start_url: '/',
+        publicPath: '/',
         icons: [
           {
             src: path.resolve('src/images/logo.png'),
@@ -48,6 +41,12 @@ module.exports = () => {
           },
         ],
       }),
+			    // Injects our custom service worker
+					new InjectManifest({
+						swSrc: './src-sw.js',
+						swDest: 'src-sw.js',
+					}),
+
     ],
 
     module: {
