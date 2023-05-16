@@ -21,13 +21,26 @@ const db = await openDB('jate', 1);
 const tx = db.transaction('jate', 'readwrite');
 // open desired object stored in db
 const store = tx.objectStore('jate');
-// store conetnet to db
+// store content to db
 const request = store.put( { id: 1, value: content } );
-// if request is sucessful
+// if request is successful
 const result = await request;
 console.log(result);
 }
-// TODO: Add logic for a method that gets all the content from the database
-export const getDb = async () => console.error('getDb not implemented');
+// Add logic for a method that gets all the content from the database
+export const getDb = async () => {
+	// create connection to db
+	const db = await openDB('jate', 1);
+  // create new transaction
+	const tx = db.transaction('jate', 1);
+	// store object in db
+	const store = tx.objectStore('jate');
+	// get all records from store
+	const request = store.getAll();
+
+	// if request is successful
+	const result = await request;
+  console.log(result);
+};
 
 initdb();
