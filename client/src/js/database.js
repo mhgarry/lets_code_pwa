@@ -32,7 +32,7 @@ export const getDb = async () => {
 	// create connection to db
 	const db = await openDB('jate', 1);
   // create new transaction
-	const tx = db.transaction('jate', 1);
+	const tx = db.transaction('jate', 'readwrite');
 	// store object in db
 	const store = tx.objectStore('jate');
 	// get all records from store

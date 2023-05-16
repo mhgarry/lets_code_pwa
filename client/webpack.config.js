@@ -20,7 +20,7 @@ module.exports = () => {
     plugins: [
       new HtmlWebpackPlugin({
         template: './index.html',
-        title: 'PWA Text Editor',
+        title: 'JATE',
       }),
       // Add a manifest.json file.
       new WebpackPwaManifest({
