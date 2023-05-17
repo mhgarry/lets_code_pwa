@@ -12,7 +12,7 @@
 9. [How to contribute](#how-to-contribute)
 10. [Questions](#questions)
 11. [Sources](#sources)
-
+12. [Links](#heroku-link)
 ## Licensing
 Refer to <https://choosealicense.com/> for licensing information
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
@@ -25,7 +25,7 @@ Refer to <https://choosealicense.com/> for licensing information
 
 ## Installation
 
-To install JATE: PWA Text Editor a user must go to https://pwa-pocket-editor.herokuapp.com/ and click install on the top of the page.
+To install JATE: PWA Text Editor a user must go to the github repository above and clone this project. After cloning this project open a text editor and install the npm dependencies using the "npm i" command. Then run the command "npm start" in your command line. The webpack will build and you can visit the application at localhost:3001 and click the install button. This will install the application locally to your machine.
  Refer to https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository for information on cloning a repository
 
 ## Usage
@@ -73,6 +73,8 @@ Developers can contribute to this project by cloning this repository and using b
 For any further questions I'm available at mhgarry92@gmail.com
 To view and clone this project's repository as well as view other projects I'm working on visit github.com/mhgarry.
 
+## Heroku Link
+https://pwa-pocket-editor.herokuapp.com/
 
 ## Sources
 https://www.smashingmagazine.com/2016/08/a-beginners-guide-to-progressive-web-apps/
