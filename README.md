@@ -82,3 +82,17 @@ https://scandiweb.com/blog/learn-all-about-progressive-web-apps/
 https://brainhub.eu/library/progressive-web-application-quickstart
 https://web.dev/add-manifest/
 youtube.com/watch?v=cfPBdIqM0i8
+
+![Text Editor][text editor]
+![Local Storage][local storage]
+![PWA Build][pwa_build]
+![Session][session/cache]
+![Desktop Icon][desktopicon]
+![PWA Check][pwa_check]
+
+[pwa_build]: client/screenshots/pwa_build.png
+[local storage]: client/screenshots/local_storage.png
+[def]: client/screenshots/session_storage.png
+[def2]: client/screenshots/text-editor.png
+[desktopicon]: client/screenshots/desktop-icon.png
+[pwa_check]: client/screenshots/pwa_check.png
