@@ -25,7 +25,7 @@ Refer to <https://choosealicense.com/> for licensing information
 
 ## Installation
 
-To install JATE: PWA Text Editor a user must go to urlhere and click install on the top of the page.
+To install JATE: PWA Text Editor a user must go to https://pwa-pocket-editor.herokuapp.com/ and click install on the top of the page.
  Refer to https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository for information on cloning a repository
 
 ## Usage
