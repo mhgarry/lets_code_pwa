@@ -1,5 +1,11 @@
 {
   "name": "JATE",
+  "version": "1.0.0",
+  "description": "JATE",
+  "engines": {
+    "node": "18.X"
+
+  },
   "scripts": {
     "dev": "webpack-dev-server",
     "build": "webpack --mode production",
