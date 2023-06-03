@@ -11,7 +11,7 @@
     "build": "webpack --mode production",
     "start": "webpack --watch"
   },
-  "author": "2U",
+  "author": "matt",
   "license": "UNLICENSED",
   "devDependencies": {
     "@babel/core": "^7.15.0",
