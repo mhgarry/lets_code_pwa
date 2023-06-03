@@ -1,5 +1,15 @@
 {
   "name": "JATE",
+  "version": "1.0.0",
+  "description": "JATE",
+  "engines": {
+    "node": "18.X",
+    "npm": "7.X",
+    "yarn": "1.X",
+    "npx": "7.X",
+    "webpack": "5.X"
+  },
+  },
   "scripts": {
     "dev": "webpack-dev-server",
     "build": "webpack --mode production",
